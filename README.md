@@ -97,3 +97,15 @@ I used **ChatGPT** to brainstorm, structure, and build this project step by step
 
 ---
 
+## 🧾 Why I Made This
+
+Ubuntu doesn’t come with a built-in visual tool to show how long the system has been running — at least not in a clean, minimal way on the desktop.
+
+I wanted a lightweight tracker that:
+
+* Starts with the system
+* Displays uptime clearly (like `DD:HH:MM:SS`)
+* Doesn’t rely on any daemon or terminal commands
+* Looks modern, elegant, and sits subtly on the desktop
+
+Also, I wanted to **explore Electron.js** and understand how web technologies can be used to build desktop apps. This project served as a great hands-on opportunity to learn about Electron’s architecture, Node.js integration, and cross-platform GUI logic.

@@ -1,0 +1,47 @@
+/* General page styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  -webkit-app-region: drag;
+  user-select: none;
+}
+
+/* Container for uptime display */
+.uptime-container {
+  text-align: center;
+}
+
+/* Uptime label */
+#uptime-label {
+  font-size: 24px;
+  color: #5c5858;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Uptime main display */
+#uptime {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff; 
+}
+
+/* Boot time display */
+#since {
+  font-size: 20px;
+  color: #888888;
+  margin-top: 5px;
+}

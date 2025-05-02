@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+
+# Electron build files
+dist/
+out/
+
+# Logs and runtime
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Temporary or swap files
+*.swp
+*.swo
+*.tmp
+
+# VSCode and IDE-specific settings
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+
+# Systemd compiled files (if generated)
+*.service~
+
+# Uptime data file (optional — if not meant for versioning)
+uptime_data.txt
+
+# Electron cache
+.cache/
+
+# Backup or build artifacts
+*.bak
+*.old

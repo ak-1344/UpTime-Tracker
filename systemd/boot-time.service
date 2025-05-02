@@ -1,0 +1,11 @@
+[Unit]
+Description=Write system boot time to a file
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/ak/Desktop/Data/Coding/Projects/UpTime/scripts/setup_boot_service.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=default.target

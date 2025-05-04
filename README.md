@@ -45,7 +45,7 @@ uptime-tracker/
 ### 1. Clone this Repository
 
 ```bash
-git clone https://github.com/yourusername/uptime-tracker.git
+git clone https://github.com/ak-1344/uptime-tracker.git
 cd uptime-tracker
 ```
 

@@ -4,7 +4,8 @@
   "description": "A simple uptime tracker app",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager . uptime-tracker --platform=linux --arch=x64 --icon=icon.png --overwrite"
   },
   "devDependencies": {
     "electron": "^x.x.x"

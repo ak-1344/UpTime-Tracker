@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CPU Usage
+Exec=/home/ak/Desktop/Data/Coding/Projects/UpTime/CPU_Time_Usage --no-sandbox
+Icon=/home/ak/Desktop/Data/Coding/Projects/UpTime/web-ui/icon.png
+Terminal=false
+StartupWMClass=Timer

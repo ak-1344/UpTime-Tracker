@@ -1,5 +1,6 @@
 # Node.js dependencies
 node_modules/
+uptime-tracker-linux-x64/
 
 # Electron build files
 dist/
@@ -32,8 +33,6 @@ Thumbs.db
 # Systemd compiled files (if generated)
 *.service~
 
-# Uptime data file (optional — if not meant for versioning)
-uptime_data.txt
 
 # Electron cache
 .cache/

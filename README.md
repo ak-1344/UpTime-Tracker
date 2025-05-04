@@ -22,7 +22,7 @@ uptime-tracker/
 ├── CPUUsage.desktop                # Ubuntu desktop shortcut file
 ├── uptime_data.txt                 # Stores the boot timestamp
 ├── play.c                          # C program to write boot time to file
-├── CPI_Time_Usage                  # Compiled executable from play.c
+├── CPU_Time_Usage                  # Compiled executable from play.c
 ├── scripts/
 │   └── setup_boot_service.sh       # Sets up systemd service for play
 ├── systemd/
@@ -52,7 +52,7 @@ cd uptime-tracker
 ### 2. Compile and Setup Boot Time Recorder
 
 ```bash
-gcc play.c -o play
+gcc play.c -o CPU_Time_Usage
 cd scripts
 chmod +x setup_boot_service.sh
 ./setup_boot_service.sh
